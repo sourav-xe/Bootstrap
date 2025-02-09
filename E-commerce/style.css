@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(226, 64, 5);
+}
+.nav-item{
+    gap: 50px; 
+    list-style-type: none;
+}
+.logo{
+    margin-left: 30px;
+}
+.tog{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.tog a{
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    font-size: large;
+    font-weight: 500;
+}
+.tog a:hover{
+    font-weight: 700;
+    transition: all 0.3s;
+    text-decoration: underline;
+    color: rgb(80, 80, 210);
+}
+.itm{
+    margin-left: 10px;
+   
+    list-style: none;
+}
+.search{
+    border-radius: 10px;
+
+} 
+/* --------------------main------------------ */
+.main{
+    background-color: slategray;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    background: url(imgs.jpg);
+    object-fit: cover;
+    z-index: 1;
+    
+}
+.main-text{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 100px;
+    gap: 20px;
+}
+.explore{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(54, 26, 197);
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    color: white;
+    margin-left: 270px;
+}
+.explore:hover{
+    width: 126px;
+    height: 33px;
+    color: rgb(255, 253, 253);
+    text-decoration: underline;
+}
+.headline{
+    font-size: 4rem;
+    font-style:italic;
+
+}
+ .main p{
+    font-weight: 500;
+    font-size: 1.5rem;
+   margin-left: 120px;
+}
+
+
+/* -----------------------2nd page----------------- */
+.second-page{
+    height: 800px;
+    width: 100vw;
+    background-color: slategray;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+    background-color:rgb(0, 0, 0);
+    height: 2px;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0);
+}
+.second-page a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    color: black;
+    font-style: italic
+}
+.mens-text{
+    display: flex;
+    font-weight: 600;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.new{
+   text-decoration: underline;
+    text-align: center;
+    color: rgb(18, 18, 222);
+}
+.off{
+    text-align: center;
+    color: red;
+}
+.wrapper{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card1{
+    width: 400px;   
+    gap: 50px;
+    background-color: rgb(31, 118, 204);
+    margin-top: 20px;
+    outline: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgb(146, 9, 9);
+}
+.card1:hover{
+    outline: 2px solid rgb(0, 0, 0);
+}
+.header{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.card-body{
+    height: 480px;
+}
+.about{
+    text-align: center;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: orange;
+    height: 200px;
+    background-color: rgb(61, 61, 65);
+}
+.footer{
+    display: flex;
+    gap: 6px;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+}
+.n-price{
+    text-decoration: line-through;
+    color: slategray;
+    text-align: center;
+    margin-top: 10px;
+}
+.price{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
