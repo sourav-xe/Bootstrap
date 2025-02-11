@@ -22,7 +22,20 @@
     color: rgb(0, 0, 0);
     font-size: large;
     font-weight: 500;
+    animation: chag 5s  infinite;
 }
+@keyframes chag{
+    0%{
+        color: black;
+    }
+    50%{
+        color: rgb(52, 231, 70);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }
+}
+
 .tog a:hover{
     font-weight: 700;
     transition: all 0.3s;
@@ -202,13 +215,13 @@
     width: 130px;
     height: 35px;
     color: white;
-    background-color: rgb(120, 39, 39);
+    background-color: rgb(38, 196, 72);
     font-size: large; 
     border-radius: 5px; 
 }
 .exp:hover{
     color: rgb(50, 50, 197);
-    background-color : rgb(198, 207, 28);
+    background-color : rgb(228, 240, 8);
     width: 135px;
     height: 39px;
 }
@@ -247,4 +260,59 @@
     font-weight: 700;
     font-style: italic;
     color: rgb(244, 12, 12);
+}
+
+/* ----------------------ACCORDIAN AND FAQ--------------------- */
+.forth-page{
+    height: 600px;
+    width: 100%;
+    background: url(fwJJS77.jpg);
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.faq-header{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    animation: big 3s linear infinite;
+    text-decoration: underline;
+}
+@keyframes big{
+    0%{
+        font-size: 2rem;
+    }
+    50%{
+        font-size: 2.25rem;
+    }
+    100%{
+        font-size: 2.5rem;
+    }
+    
+}
+.faq-wrap{
+    height: 400px;
+    width: 70%;
+    margin-top: 50px;
+}
+.accordion-button{
+    background-color: white;
+}
+.accordion-body{
+    background-color: black;
+    color: white;
+    
+}
+span{
+    color: black;
+    font-weight: 500;
+}
+/* -------------------foooter---------------------------- */
+footer{
+    /* border-top-right-radius: 10px; */
 }
